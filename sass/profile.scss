@@ -1,0 +1,35 @@
+.content-profile {
+  width: 716px;
+  height: 391px;
+  //   background-color: red;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  .gambar {
+    flex: 1;
+    background-image: url(../img/pp.jpg);
+    background-size: cover;
+    width: 320px;
+    height: 338px;
+    border-radius: 10px;
+    background-position: center;
+  }
+  .biodata {
+    flex: 1;
+    ul {
+      list-style: none;
+      li {
+        font-size: 15px;
+        line-height: 24px;
+        color: #989191;
+        &:nth-child(odd) {
+          color: #656462;
+          font-size: 20px;
+          margin-top: 25px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+.judulcart {
+  padding: 0 139px;
+}
+.contentcart {
+  padding: 20px 139px;
+  display: flex;
+
+  table {
+    flex: 2;
+    border: none;
+
+    tr {
+      height: 115px;
+      background-color: #f8f8f8;
+      text-align: center;
+    }
+    tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+    tr:nth-child(1) {
+      background-color: red;
+      height: 50px;
+      background-color: #f0f1ee;
+    }
+
+    .btn {
+      display: flex;
+      width: 90px;
+      height: 30px;
+      background-color: white;
+      text-align: center;
+      justify-content: space-between;
+
+      button {
+        width: 30px;
+        height: 30px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        color: white;
+        &:nth-child(1) {
+          background-color: rgb(187, 184, 184);
+        }
+        &:nth-child(3) {
+          background-color: #27ae60;
+        }
+      }
+      .isi {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+      }
+    }
+  }
+  .checkout {
+    flex: 1;
+    background-color: #f5f5f5;
+    margin-left: 62px;
+    max-height: 600px;
+    box-sizing: border-box;
+    padding: 30px;
+
+    h3 {
+      font-size: 24px;
+      color: #3f3a3a;
+      font-weight: 400;
+      margin: 0;
+    }
+
+    ol {
+      padding: 0;
+      padding-left: 20px;
+      color: #989191;
+      li {
+        margin-bottom: 15px;
+        .barang {
+          float: left;
+        }
+        .harga {
+          float: right;
+        }
+        .clear {
+          clear: both;
+        }
+      }
+    }
+    .box {
+      height: 40px;
+      width: 100%;
+      // background-color: red;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 26px;
+
+      a {
+        text-decoration: none;
+        color: white;
+        width: 150px;
+        box-sizing: border-box;
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+        background-color: #d13535;
+
+        &:nth-child(2) {
+          background-color: #1ba45b;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.breadcrumb {
+  padding: 0 139px;
+  color: #bbbbbb;
+  text-decoration: none;
+  padding-top: 100px;
+}
+
+.breadcrumb a {
+  color: #6e6767;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contenisi {
+  width: 100%;
+  padding: 20px 139px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contenisi .preview {
+  width: 400px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.contenisi .deskripsi {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  text-align: justify;
+  padding-left: 44px;
+  padding-top: 20px;
+}
+
+.contenisi .deskripsi h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  color: #5a5757;
+}
+
+.contenisi .deskripsi span {
+  color: #949292;
+  font-size: 15px;
+  margin-top: 8px;
+  display: block;
+}
+
+.contenisi .deskripsi a {
+  text-decoration: none;
+  color: white;
+  margin-top: 13px;
+  display: block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: none;
+  background-color: #27ae60;
+  color: white;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+
+.contenisi .deskripsi a:hover {
+  background-color: #1a6d3d;
+}
+
+.contenisi .deskripsi h3 {
+  color: #5a5757;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  margin-top: 19px;
+}
+
+.contenisi .deskripsi p,
+.contenisi .deskripsi ul {
+  color: #949292;
+  line-height: 25px;
+}
+/*# sourceMappingURL=detail.css.map */
